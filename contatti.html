@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti | RDL Capiago Intimiano</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;0,900;1,900&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="RDL Logo">
+            </a>
+            <button class="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="roster.html">Roster</a></li>
+                <li><a href="sponsor.html">Sponsor</a></li>
+                <li><a href="contatti.html" class="active">Contattaci</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="reveal-text">Contattaci</h1>
+            <p class="reveal-up">Siamo qui per rispondere alle tue domande</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal-left">
+                    <h2>Informazioni di Contatto</h2>
+                    <div class="info-item">
+                        <span class="icon">📍</span>
+                        <div>
+                            <h4>Sede</h4>
+                            <p>Palazzetto dello Sport<br>Via dello Sport, 1<br>22070 Capiago Intimiano (CO)</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">📧</span>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:info@rdlcapiago.it">info@rdlcapiago.it</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">📱</span>
+                        <div>
+                            <h4>Telefono</h4>
+                            <p><a href="tel:+39000000000">+39 000 000 0000</a></p>
+                        </div>
+                    </div>
+                    <div class="social-contact">
+                        <h4>Seguici sui Social</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-btn">📷 Instagram</a>
+                            <a href="#" class="social-btn">📘 Facebook</a>
+                            <a href="#" class="social-btn">🎵 TikTok</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper reveal-right">
+                    <form class="contact-form" id="contactForm">
+                        <h2>Inviaci un Messaggio</h2>
+                        <div class="form-group">
+                            <label for="name">Nome e Cognome *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Oggetto</label>
+                            <select id="subject" name="subject">
+                                <option value="info">Informazioni Generali</option>
+                                <option value="join">Voglio unirmi al team</option>
+                                <option value="sponsor">Proposta Sponsorship</option>
+                                <option value="other">Altro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Messaggio *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Invia Messaggio</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11116.044619036!2d9.107!3d45.77!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786862!2sCapiago%20Intimiano!5e0!3m2!1sit!2sit!4v1"
+                width="100%"
+                height="400"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="logo.png" alt="RDL Logo" class="footer-logo">
+                    <p>RDL Capiago Intimiano<br>Basket Femminile</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Link Utili</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="roster.html">Roster</a></li>
+                        <li><a href="sponsor.html">Sponsor</a></li>
+                        <li><a href="contatti.html">Contatti</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Seguici</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="TikTok">🎵</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 RDL Capiago Intimiano. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
